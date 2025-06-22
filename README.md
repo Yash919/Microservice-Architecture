@@ -177,7 +177,7 @@ Acts as a single entry point for all client requests. It routes requests to the 
 **Routes Configured:**
 - `{base-url}/users/**`   → routes to User Service
   
-  ![image](https://github.com/user-attachments/assets/a52491c1-f9ae-4b34-a2e0-219f9374380e)
+  ![image](https://github.com/user-attachments/assets/5e0a1941-2a4b-4233-abbc-304e91c9c90c)
 
 - `{base-url}/hotels/**`  → routes to Hotel Service
   
