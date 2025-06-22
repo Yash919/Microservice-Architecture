@@ -4,17 +4,35 @@
 
 This project is a complete microservices-based system built with Spring Boot and Spring Cloud. It includes real-world features like service-to-service communication, centralized configuration, security, and error handling.
 
-### ✅ Key Features
+## ✅ Key Features & Concepts
 
-- Microservices architecture using Spring Boot
-- Service discovery with Eureka
-- API Gateway with Spring Cloud Gateway
-- Centralized configuration using Spring Cloud Config Server
-- Inter-service communication using Feign Client and RestTemplate
-- Circuit Breaker and Resilience4j integration
-- MongoDB for data persistence
-- OAuth2-based authentication using Okta
-- CRUD operations with validation and exception handling
+- **Microservices architecture using Spring Boot**  
+  Each functionality is split into independent microservices, built using Spring Boot for rapid development and deployment.
+
+- **Service discovery with Eureka**  
+  Eureka Server registers all running microservices and enables them to discover each other dynamically without hardcoded URLs.
+
+- **API Gateway with Spring Cloud Gateway**  
+  Acts as a single entry point for all client requests, handling routing, filtering, and authentication logic.
+
+- **Centralized configuration using Spring Cloud Config Server**  
+  Externalizes configuration for all services in a centralized Git repository, allowing real-time updates without redeploying services.
+
+- **Inter-service communication using Feign Client and RestTemplate**  
+  Enables clean and efficient communication between microservices through declarative REST clients (`Feign`) and template-based clients (`RestTemplate`).
+
+- **Circuit Breaker and Resilience4j integration**  
+  Adds fault tolerance to services by preventing cascading failures during downtime or latency issues using timeouts, retries, and fallbacks.
+
+- **MongoDB for data persistence**  
+  A NoSQL database is used across all services to store user, hotel, and rating data in a flexible and scalable format.
+
+- **OAuth2-based authentication using Okta**  
+  Secures all service endpoints using OAuth2 protocol via Okta, ensuring only authorized users can access protected resources.
+
+- **CRUD operations with validation and exception handling**  
+  All services support create, read, update, and delete operations with proper input validation and consistent error handling mechanisms.
+
 
 ### 🧩 Microservices Included
 
