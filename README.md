@@ -45,6 +45,13 @@ This project is a complete microservices-based system built with Spring Boot and
 
 ---
 
+### 🔁 Flowchart
+
+![image](https://github.com/user-attachments/assets/2e3979e4-9439-4427-afb3-68dad42d0a84)
+
+
+---
+
 ### 🚀 Getting Started
 
 **Requirements:**
